@@ -3,18 +3,18 @@
     margin: auto;
     padding: 0;
 }
-@import url("https://fonts.google.com/specimen/Outfit");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 html{
-    background-color: rgb(104, 168, 211);
+    background-color: rgb(148, 188, 214);
 }
 body{
     margin: 4em auto;
     text-align: center;
-    font-family: 'Outfit', serif;
+    font-family: 'Outfit', sans-serif;
 }
 div.card{
     width: 350px;
-    height: 32em;
+    height: 31em;
     margin: 20px auto;
     background-color: white;
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
@@ -24,14 +24,14 @@ div.card{
     div.card{
         width: 300px;
         margin: 20px auto;
-        height: 30em;
+        height: 29em;
     }
 }
 @media (max-width: 320px) {
     div.card{
         width: 220px;
         margin: 20px auto;
-        height: 27em;
+        height: 26em;
     }
 }
 div.card img{
@@ -43,13 +43,13 @@ div.card img{
 div.card header{
     font-size: large;
     font-weight: 700;
-    margin: 0 20px 10px;
+    margin: 0 20px 20px;
 }
 div.card p{
     color:hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
-    margin: 0 20px 10px;
+    margin: 0 40px 10px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
